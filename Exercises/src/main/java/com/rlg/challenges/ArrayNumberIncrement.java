@@ -27,7 +27,7 @@ public class ArrayNumberIncrement {
 				
 				temp[i] = subtotal; 
 				incrementPrior = 0;			
-			} else {
+			} else { 
 				
 				temp[i] = subtotal % 10;
 				incrementPrior = subtotal / 10;
