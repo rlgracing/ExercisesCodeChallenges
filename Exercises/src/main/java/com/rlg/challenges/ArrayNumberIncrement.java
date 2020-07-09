@@ -13,6 +13,10 @@ public class ArrayNumberIncrement {
 	
 	public static int[] increment(int[] digits, int amount) {
 
+		if(amount <= 0 || amount >= 10) {
+			return digits;
+		}
+		
 		int paramDigitsLength = digits.length;
 		int[] temp = new int[paramDigitsLength];
 		for(int i = 0 ; i < paramDigitsLength ; i++) {
